@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    body {
+        @apply bg-[#20222c] text-white p-8
+    }
+}
+
+.text-shadow-blue:hover {
+    text-shadow: rgb(32, 108, 230) 1px 0 20px;    
+}
